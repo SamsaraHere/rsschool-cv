@@ -10,3 +10,12 @@ I'm 25 years old. Сurrently employed as a lawyer in a bank, but decided to chan
 - HTML
 - CSS
 - JavaScript (Basic)
+# Code examples
+Coming soon...
+# Education
+Higher School of Economics. Bachelor's degree in legal studies.
+# Work experience
+At the moment I've only irrelevant work experience in legal studies, but I am constantly learning and developing my skills to get the first commercial experience in the IT.
+# Language level:
+- English - B2 (In "IELTS-like" test which I took in university, got score 6.5)
+- Russian - native speaker
