@@ -1,7 +1,19 @@
 <style>
-.test {
-    color: black;
-}
-</style>
+h2 {
+ color: #330F0A;
+ }
 
-<p class="test">Testing CSS</p>
+ body {
+ background-color:#c9dced;
+ margin: 0 auto;
+ text-align: center;
+ font-size: 30px;
+ }
+
+ pre {
+     font-size: 20px;
+     background: center #a1c9ec;
+     display: inline-block;
+     border: solid;
+ }
+</style>
