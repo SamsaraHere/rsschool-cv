@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <style>
+        html {
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+       h2 {
+        color: #330F0A;
+        }
+
+        body {
+        background-color:#c9dced;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 15px;
+        }
+
+        pre {
+            font-size: 10px;
+            background: center #a1c9ec;
+            display: inline-block;
+            border: solid;
+        }
+
+        header {
+            border-bottom: rgb(154, 197, 226) solid;
+        }
+    </style>
+</head>
+<body>
+    <nav style="background-color: #88b4db; text-align: center; font-size: 15px; border-bottom: solid;">
+        <a href="#ContactInfo" style="text-decoration: none">Сontact information</a>
+        ┃
+        <a href="#AboutMe" style="text-decoration: none">About Me</a>
+        ┃
+        <a href="#Skills" style="text-decoration: none">Skills</a>
+        ┃
+        <a href="#Projects" style="text-decoration: none">Projects</a>
+        ┃
+        <a href="#CodeExample" style="text-decoration: none">Code examples</a>
+        ┃
+        <a href="#Education" style="text-decoration: none">Education</a>
+        ┃
+        <a href="#WorkExperience" style="text-decoration: none">Work experience</a>
+        ┃
+        <a href="#LanguageLevel" style="text-decoration: none">Language level</a>
+    </nav>
+    <header>
+    <h1>Alexander Saranskikh</h1>
+    <img src="https://i.ibb.co/9YWbLm5/e2f08837416a37c9bb9c14e316e37526.png" alt="my avatar" width="300" height="200">
+    </header>
+<main>
+<h2 id="ContactInfo">Сontact information:</h2>
+  E-mail: saranskikh.alex@gmail.com
+  <br>Discord: arekisander
+ <h2 id="AboutMe">About Me</h2>
+I'm 25 years old. Сurrently employed as a lawyer in a bank, but decided to change my occupation. 
+<br>Started my way by taking the course "JavaScript/Front-end" provided by The Rolling Scopes School.
+<br>I like to explore new information and constantly learning.
+<ul id="Skills"><h2>Skills:</h2>
+  <li>Git/GitHub</li>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript (Basic)</li>
+ </ul>
+ <h2 id="Projects">Projects</h2>
+ <a style="text-decoration: none" href="https://samsarahere.github.io/rsschool-cv/cv">CV (Markdown)</a>
+ <h2 id="CodeExample">Code examples</h2>
+<code><pre>
+    function bubbleSort(arr) {
+      var len = arr.length;
+    
+    for (var i = 0; i < len; i++) {
+      for (var j = 0; j < len - 1; j++) {
+        if (arr[j] > arr[j + 1]) {
+          // Swap elements
+          var temp = arr[j];
+          arr[j] = arr[j + 1];
+          arr[j + 1] = temp;
+        }
+      }
+    }
+    
+    return arr;
+  }
+  
+  // Test the sorter
+  var numbers = [5, 3, 8, 2, 1, 9, 4, 7, 6];
+  console.log("Before sorting:", numbers);
+  
+  var sortedNumbers = bubbleSort(numbers);
+  console.log("After sorting:", sortedNumbers);
+</pre>
+</code>
+ <h2 id="Education">Education</h2>
+Higher School of Economics. Bachelor's degree in legal studies.
+ <h2 id="WorkExperience">Work experience</h2>
+At the moment I've only irrelevant work experience in legal studies, 
+<br>but I am constantly learning and developing my skills to get the first commercial experience in the IT.
+ <h2 id="LanguageLevel">Language level</h2>
+English - B2 (In "IELTS-like" test which I took in university, got score 6.5)
+<br></vr>Russian - native speaker
+</main>
+<footer style="border-top:solid; background-color: #88b4db;">
+    <a href="https://github.com/SamsaraHere"><img src="https://i.ibb.co/YDH4kdT/github-mark.png" width="40"></a> 
+    ┃<b>July 2023</b>
+    ┃<a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" width="70" alt="rs-school"></a>
+</footer>
+</body>
+</html>
