@@ -1,1 +1,1 @@
-https://samsarahere.github.io/rsschool-cv/cv
+https://SamsaraHere.github.io/rsschool-cv/
